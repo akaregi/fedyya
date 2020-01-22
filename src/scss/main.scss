@@ -20,6 +20,10 @@ main {
     justify-content: center;
 }
 
+section {
+    padding: .5rem 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
 
@@ -30,6 +34,10 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+
+    li {
+        padding: 0 .5rem;
+    }
 }
 
 a {
@@ -37,16 +45,11 @@ a {
     text-decoration: none;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid rgba(187, 187, 187, 0.37);
-}
-
 .card {
-    background: #ffffffcc;
+    background: rgba(255, 255, 255, 0.6);
 
     padding: 3rem 5rem;
-    border-radius: 3px;
+    border-radius: 8px;
 
     text-align: center;
 }
